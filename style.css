@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 100%;
+    max-height: 600px;
+}
+.nav-links{
+    position: absolute;
+    right: 50%;
+    top: 30px;       
+}
+.nav-links li{
+    list-style: none;
+    display: inline;
+    
+       
+}
+.nav-links li a{
+    margin: 0 15px;
+    color: rgb(135, 134, 134);
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.nav-links li a:hover{
+    color: green;
+}
+
+h1{
+    position: absolute;  
+    margin-left: 20px;
+    margin-top: 30px;
+    color: black; 
+    font-size: 15px;
+}
+h2{
+    position: absolute;
+    top: 30%;
+    left: 70%;    
+    font-size: 400%;
+    color: rgb(135, 134, 134);
+}
+
+h3{
+    
+    font-size: 200%;
+    color: black;
+    
+}
+.Paragraph{
+    position: absolute;
+    top: 40%;
+    left: 70%;    
+    
+    color: rgb(135, 134, 134);
+}
+
