@@ -1,61 +1,35 @@
-*{
-    margin: 0;
-}
-.navbar {
-    background-color: rgb(66, 64, 64);
-    overflow: hidden;
+* {
+    margin: 0px;
 }
 
-.navbar a {
-    float: left;
-    color: white;
-    padding: 30px 16px;
+.nav-links{  
+    position: absolute;
+    right: 50%;
+           
+}
+.nav-links li{
+    list-style: none;
+    display: inline;
+   
+       
+}
+.nav-links li a{
+    margin: 0 15px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    
     
 }
-.myImage{
-    width: 12%;
-    height: 12%;
-    border-radius: 50%;
-    border: 5px solid black;
+.nav-links li a:hover{
+    color: green;
 }
-.container{
-    display: flex;
-    margin-top: 10%;
-    margin-left: 17%;
+#message {
+    height: 110px;
 }
-.Contact{
-    margin-left:10%;
+#contact {
+    font-style: italic;
 }
-.registrationForm{
-    margin-left: 36%;
-}
-#message{
-    margin-left: 6px;
-    width: 500px;
-    height: 130px;
-}
-#subject{
-    margin-left: 10px;
-    width: 500px;
-    height: 50px;
-}
-.btn {
-    background-color: rgb(7, 7, 134); 
-    border-radius: 20px;
-    width: 120px;
-    height: 40px;
-    color: #FFFFFF; 
-}
-#nameBox{
-    margin-left: 10px;
-    width: 500px;
-    height: 50px;
-}
-#email{
-    margin-left: 10px;
-    width: 500px;
-    height: 50px;
-}
-.color{
-    color: blue;
-}
+
+
+

@@ -1,0 +1,18 @@
+.fullbody{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-style: italic;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: red;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}

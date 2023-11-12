@@ -1,16 +1,26 @@
-*{
-    margin: 0;
+* {
+    margin: 0px;
 }
-.navbar {
-    background-color: black;
-    overflow: hidden;
+.nav-links{
+    position: absolute;
+    right: 50%;
+           
 }
-
-.navbar a {
-    float: left;
-    color: white;
-    padding: 30px 16px;
+.nav-links li{
+    list-style: none;
+    display: inline;
     
+       
+}
+.nav-links li a{
+    margin: 0 15px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.nav-links li a:hover{
+    color: green;
 }
 
 .color {
@@ -22,20 +32,10 @@ h3{
     border-radius: 10%;
 }
 
-.navbar li{
-    list-style: none;
-    display: inline;
-    
-       
-}
-.navbar li a{
-    margin: 0 15px;
-    color: rgb(135, 134, 134);
-    font-weight: 600;
-    font-size: 20px;
-    
-}
-.nav-links li a:hover{
-    color: green;
-}
+
+
+
+
+
+
 

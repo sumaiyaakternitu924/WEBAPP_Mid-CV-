@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-links{
+    position: absolute;
+    right: 50%;
+           
+}
+.nav-links li{
+    list-style: none;
+    display: inline;
+    
+       
+}
+.nav-links li a{
+    margin: 0 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.nav-links li a:hover{
+    color: green;
+}
+#Project {
+    background: black;
+    padding: 7% 10%;
+}
+
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;   
+}
+.carousel-item {
+    padding: 5% 15%;
+    text-align: center; 
+    font-style: italic;
+}
+.project-img {
+    width: 50%;
+    height: 30%;
+}
+.fullbody {
+    background-color: black;
+}
