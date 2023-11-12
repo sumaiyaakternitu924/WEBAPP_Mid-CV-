@@ -1,5 +1,5 @@
-function contact () {
-    var userName = document.getElementById("nameBox").value ; 
+function contact() {
+    var userName = document.getElementById("name").value ; 
     var YourEmail = document.getElementById("email").value ; 
     var Subject = document.getElementById("subject").value ; 
     var Message = document.getElementById("message").value ; 
@@ -10,12 +10,7 @@ function contact () {
 
     else {
         document.getElementById("content").innerHTML = `
-            <h4>Hello ${userName} <br>
-            Your Email is: ${YourEmail} <br>
-            Your Phone Number is: ${Subject} <br>
-            Your Date of Birth is: ${Message} <br><br><br>
-            
-            Successful</h4>`;
+            <h4>Successful</h4>`;
     }
 
     

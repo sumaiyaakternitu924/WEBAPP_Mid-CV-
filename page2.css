@@ -2,27 +2,16 @@
     margin: 0px;
 }
 
-.nav-links{  
-    position: absolute;
-    right: 50%;
-           
+header nav{
+    background-color: rgb(6, 6, 77);
 }
-.nav-links li{
-    list-style: none;
-    display: inline;
-   
-       
+.nav-link, .navbar-brand{
+    color: white;
 }
-.nav-links li a{
-    margin: 0 15px;
-    color: black;
-    font-weight: 600;
-    font-size: 20px;
-    
-    
-}
-.nav-links li a:hover{
-    color: green;
+.nav-item :hover{
+    border: 3px solid red;
+    border-radius: 30px;
+
 }
 #message {
     height: 110px;

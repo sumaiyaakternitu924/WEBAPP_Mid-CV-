@@ -16,49 +16,71 @@
 <body>
     <!-- Navbar -->
     <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="page1.html">Profile</a><li>
-                <li><a href="page2.html">Hire Me</a></li>
-                <li><a href="page3.html">Project</a></li>
-                <li><a href="page4.html">Contact Us</a></li>
-
-            </ul>
-        </nav>
-
-    </header> <br> <br>
-
-    
-        <form class="p-5 bg-dark text-white ">
-            <h1>Contact Me</h1>
-            <p id="contact">If you would like to hire me please fill in the form below</p>
-
-            <div class="mb-3 w-50">
-                <label for="name">Name: </label>
-                <input type="text" id="name" class="form-control" />
-            </div>
-            <div class="mb-3 w-50">
-                <label for="email">Email: </label>
-                <input type="email" id="email" class="form-control" />
-                <div class="form-text">
-                    Your email will remian private. We will not share with anyone
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse m-2 justify-content-start fs-4" id="navbarNav">
+                    <ul class="navbar-nav px-3">
+                        <li class="nav-item">
+                        <a class="nav-link active px-3" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active px-3" aria-current="page" href="page1.html">Profile</a>
+                            </li>
+                        <li class="nav-item">
+                        <a class="nav-link px-3" href="page2.html">Hire Me</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link px-3" href="page3.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link px-3" href="page4.html">Contact Me</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="mb-3 w-50">
-                <label for="subject">Subject: </label>
-                <input type="text" id="subject" class="form-control" />
-            </div>
-            <div class="mb-3 w-50">
-                <label for="message">Message: </label>
-                <input type="message" id="message" class="form-control" />
-            </div>
-            <div class="mb-3">
-                <button class="btn btn-success">Submit</button>
-            </div>
-        </form>
-    
+        </nav>
 
+    </header> 
+
+
+    <form class="p-5 bg-dark text-white ">
+        <img class=" border rounded-circle img-fluid ml-5" src="myPicture.jpg" alt="" width="10%">  
+        <h1>Contact Me</h1>
+        <p id="contact">If you would like to hire me please fill in the form below</p>
+
+        <div class="mb-3 w-50">
+            <label for="name">Name: </label>
+            <input type="text" id="name" class="form-control" />
+        </div>
+        <div class="mb-3 w-50">
+            <label for="email">Email: </label>
+            <input type="email" id="email" class="form-control" />
+            <div class="form-text">
+                Your email will remian private.I will not share with anyone
+            </div>
+        </div>
+        <div class="mb-3 w-50">
+            <label for="subject">Subject: </label>
+            <input type="text" id="subject" class="form-control" />
+        </div>
+        <div class="mb-3 w-50">
+            <label for="message">Message: </label>
+            <input type="message" id="message" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-success" onclick="contact()">Submit</button>
+        </div>
+        
+
+        <div class="mb-3">
+            <div id="content">
+                
+            </div>
+        </div>
+
+    </form>
+
+    <script src="javaScriot.js"></script>
 
 
 
